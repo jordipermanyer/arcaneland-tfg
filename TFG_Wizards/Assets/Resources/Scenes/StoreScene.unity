@@ -3509,7 +3509,7 @@ MonoBehaviour:
   - "\xBFSalir del juego?"
   - "\xBFO deseas seguir avanzando? En este caso puedes moverte."
   typingTime: 0.05
-  playerController: {fileID: 0}
+  playerController: {fileID: 1632575559}
   buttonsPanel: {fileID: 1181013640}
   saveButton: {fileID: 1113208368}
   exitButton: {fileID: 2049605819}
@@ -4776,6 +4776,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9ec8f182008c804bb546581c71f8b11, type: 3}
+--- !u!114 &1632575559 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 183294722169688032, guid: c9ec8f182008c804bb546581c71f8b11, type: 3}
+  m_PrefabInstance: {fileID: 1632575558}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3905c73f09057cd4ea2321219e77837d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1858142225
 GameObject:
   m_ObjectHideFlags: 0
@@ -4986,7 +4997,7 @@ MonoBehaviour:
     partida cuando quieras."
   - "Solo acercate a cualquiera de los objetos para interactuar con ellos. \xA1Adelante!"
   typingTime: 0.05
-  playerMovement: {fileID: 0}
+  playerMovement: {fileID: 1632575559}
 --- !u!4 &1858142231
 Transform:
   m_ObjectHideFlags: 0
